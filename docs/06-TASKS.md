@@ -18,7 +18,7 @@
 - **목표:** Next.js 15, Bun, Supabase, GitHub Repo 연동 완료.
 - **Tasks:**
   - [x] 1. "Bun을 사용하여 Next.js 15 (App Router) 프로젝트 `haeng-makase`를 생성하라. TypeScript, Tailwind CSS, ESLint, Prettier를 포함한다."
-  - [ ] 2. "Shadcn/ui를 초기화하고 `card`, `button`, `badge`, `toast`, `skeleton` 컴포넌트를 설치하라."
+  - [x] 2. "Shadcn/ui를 초기화하고 `card`, `button`, `badge`, `sonner`(toast 대체), `skeleton` 컴포넌트를 설치하라."
   - [ ] 3. "Supabase 프로젝트를 생성하고 TRD와 Database Design 문서를 참조하여 `products`와 `donki_products` 두 개의 테이블을 생성하는 SQL 스크립트를 작성하라."
   - [ ] 4. "프로젝트 폴더 구조를 FSD 아키텍처에 따라 `app`, `pages`, `widgets`, `features`, `entities`, `shared`로 정리하라."
 
