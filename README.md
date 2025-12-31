@@ -10,6 +10,7 @@
 `행마카세`는 일본 여행 시 매번 겪게 되는 **"뭐 사야 하지?"**라는 고민을 해결하기 위해 탄생했습니다. 블로그와 SNS에 파편화된 정보를 찾아다니는 피로함을 줄이고, 데이터 기반의 최신 쇼핑 트렌드를 지도 기반의 직관적인 UI로 제공합니다.
 
 ### ✨ 핵심 가치
+
 - **검색 피로도 Zero:** 검증된 인기 상품과 지역 한정판 정보를 한눈에 확인하세요.
 - **최신 트렌드 반영:** 매주 업데이트되는 스크래핑 데이터로 신뢰할 수 있는 정보를 제공합니다.
 - **위트 있는 경험:** 시바견과 함께하는 즐겁고 설레는 쇼핑 여정을 선사합니다.
@@ -24,6 +25,7 @@
 ## 🏗️ 기술 스택
 
 ### Frontend
+
 - **Framework:** Next.js 15 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS + shadcn/ui
@@ -31,6 +33,7 @@
 - **Architecture:** Feature-Sliced Design (FSD)
 
 ### Backend & Infrastructure
+
 - **Database:** Supabase (PostgreSQL)
 - **Automation:** GitHub Actions (Weekly Data Pipeline)
 - **Package Manager:** Bun
@@ -47,5 +50,12 @@
 - `src/shared`: 공용 UI 및 유틸리티
 
 ---
+
+## 📚 프로젝트 실행
+
+```bash
+bun install
+bun run dev
+```
 
 © 2026 haeng-makase. Happy Shopping! 🎌
