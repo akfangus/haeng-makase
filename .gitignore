@@ -43,3 +43,6 @@ next-env.d.ts
 # agent
 .agent
 .gemini
+
+# temp
+temp.md
