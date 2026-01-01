@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Header } from "@/widgets/header";
+import { DonkiFloatingButton } from "@/widgets/donki-floating-button";
 import { Toaster } from "@/shared/ui/sonner";
 import "./globals.css";
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           <main className="flex-1 p-4 pb-20">
             {children}
           </main>
+          <DonkiFloatingButton />
           {/* 하단 탭 바 (추후 필요시 구현) */}
           <Toaster position="top-center" richColors />
         </div>
